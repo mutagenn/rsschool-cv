@@ -9,21 +9,21 @@
 
 
 ***
-###  About Me
+### About Me
 
 I see my work in the search and implementation of solutions that
 can simplify the lives and activities of other people. I respect organization,
 clearly defined tasks and planned activities.  I want to be part of the team, develop myself and help others.
 
 ***
-###  Skills
+### Skills
 - HTML5, CSS
 - Javascript (Fundamentals, ES6+, DOM)
 - Git /Github
 - VSCode, Notapad++
 
 ***
-###  Code Examples
+### Code Examples
 
 ```
 function multiply(a, b){
@@ -34,12 +34,11 @@ alert(result);
 ```
 
 ***
-###  Education
+### Education
 1.  National Aviation University (Ukraine).
 2. [HTML Academy.ru](https://htmlacademy.ru/)
 3. [Scrimba.com](https://scrimba.com/certificate/uZ7Lbqfv/gfrontend/)
+
 ***
-
 ### Languages
-
 English - B1(Intermediate)
