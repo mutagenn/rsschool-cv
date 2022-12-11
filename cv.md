@@ -5,8 +5,10 @@
 - **Phone:** +38095 919 78 80
 - **E-mail:** <vimed.gol@gmail.com>
 - **GitHub:** [@mutagenn](https://github.com/mutagenn)
-- **Discord:** Alex_Kyian 
- ***
+- **Discord:** Alex_Kyian
+
+
+***
 ###  About Me
 
 I see my work in the search and implementation of solutions that
@@ -19,6 +21,7 @@ clearly defined tasks and planned activities.  I want to be part of the team, de
 - Javascript (Fundamentals, ES6+, DOM)
 - Git /Github
 - VSCode, Notapad++
+
 ***
 ###  Code Examples
 
