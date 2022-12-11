@@ -9,7 +9,10 @@
  ***
 ###  About Me
 
-asdfsdf
+I see my work in the search and implementation of solutions that
+can simplify the lives and activities of other people. I respect organization,
+clearly defined tasks and planned activities.  I want to be part of the team, develop myself and help others.
+
 ***
 ###  Skills
 - HTML5, CSS
@@ -24,12 +27,14 @@ function multiply(a, b){
   return a * b;
 }
 const result= multiply(2,3);
-alert(result); //6
+alert(result);
 ```
 
 ***
 ###  Education
-
+1.  National Aviation University (Ukraine).
+2. [HTML Academy.ru](https://htmlacademy.ru/)
+3. [Scrimba.com](https://scrimba.com/certificate/uZ7Lbqfv/gfrontend/)
 ***
 
 ### Languages
