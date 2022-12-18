@@ -4,10 +4,118 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV HTML</title>
+    <title>Oleksandr Kyianytsia - Junior Frontend Developer CV</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
 </head>
 <body>
-    <h1>Oleksandr Kyianytsia</h1>
+    <div class="wrapper">
+
+        <header>        
+            <nav>
+                <ul class="nav-menu">
+                    <li class="menu-item"><a href="#contact-info">Contact Info</a></li>
+                    <li class="menu-item"><a href="#about-me">About Me</a></li>
+                    <li class="menu-item"><a href="#skills">Skills</a></li>
+                    <li class="menu-item"><a href="#code-example">Code Examples</a></li>
+                    <li class="menu-item"><a href="#education">Education</a></li>
+                    <li class="menu-item"><a href="#languages">Languages</a></li>
+                </ul>
+            </nav>
+            <img src="assets/img/avatar1.jpg" alt="photo" class="photo">            
+            <div class="header-container">
+                <h1>Oleksandr Kyianytsia</h1>
+                <h2>Junior Frontend Developer</h2>
+
+            </div>         
+
+        </header>
+
+        <div class="main-container">
+
+            <aside class="sidebar">
+                <section id="contact-info">
+                    <h3 class="section-title">Contacts</h3>
+                    <ul class="contact-list">
+                        <li>Email: <a href="mailto:vimed.gol@gmail.com">vimed.gol@gmail.com</a></li>
+                        <li>Github: <a href="https://github.com/mutagenn">mutagenn</a></li>
+                        <li>Discord: Alex_Kyian#3263</li>
+                    </ul>
+                </section>
+
+                <section id="skills">
+                    <h3 class="section-title">Skills</h3>
+                    <ul class="skills-list">
+                        <li>HTML5, CSS</li>
+                        <li>Javascript (Fundamentals, ES6+)</li>
+                        <li>Git /Github</li>
+                        <li>VSCode, Notapad++</li>
+                    </ul>
+                </section>
+
+                <section id="languages">
+                    <h3 class="section-title">Languages</h3>
+                    <ul class="lang-list">
+                        <li>English - B1(Pre-Intermediate)</li>
+                        <li>Ukrainian - Native</li>
+                        <li>Russian - Native</li>
+                    </ul>
+                </section>
+            </aside>
+
+            <main>
+                <section id="about-me">
+                    <h3 class="section-title">About Me</h3>
+                    <p>I see my work in the search and implementation of useful solutions that
+                        can simplify  activities of other people. I respect organization,
+                        clearly defined tasks and planned activities.  I want to be part of the team, develop myself and help others.
+                    </p>
+                </section>
+
+                <section id="code-example">
+                    <h3 class="section-title">Code Example</h3>
+                    <pre>
+
+    function map(array, func) {
+        let mappedArray= [];
+        forEach(array, (el) => {
+            mappedArray.push(func(el));
+        })
+        return mappedArray;
+    }
+                    </pre>
+
+                </section>
+
+                <section id="education">
+                    <h3 class="section-title">Education</h3>
+                    <ul>
+                        <li>
+                            
+                                National Aviation University (Ukraine)<br>
+                                Years: 2000 - 2006</br>
+                                Aerospace Faculty<br>
+                                Educational program: "Gas Turbine Plants  and Compressor  Stations"
+                            
+                        </li>
+                        <li>
+                            HTML, CSS and JS on HTML Academy
+                        </li>
+                        <li>
+                            The Frontend Developer Career Path on Scrimba
+                        </li>
+                    </ul>
+                </section>
+            </main>            
+        </div>
+
+        <footer>
+            <ul class="footer-links">
+                <li>© 2022</li>
+                <li><a href="https://rs.school/js/"" class="rss-link"><img src="/assets/svg/rsschool.svg" alt="rsschool icon" width="73"></a></li>
+                <li><a href="https://github.com/mutagenn/" class="github-link"><img src="/assets/svg/github.svg" alt="github icon" width="26" height="26"></a></li>
+            </ul>
+        </footer>
+    </div>
 </body>
 </html>
