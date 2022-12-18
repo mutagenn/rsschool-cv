@@ -1,1 +1,1 @@
-# rsschool-cv
+https://mutagenn.github.io/rsschool-cv/

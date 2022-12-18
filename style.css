@@ -1,0 +1,132 @@
+html {
+    scroll-behavior: smooth; 
+  }
+
+
+body {
+    font-family: Poppins, sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 1024px;
+    margin:  20px auto;   
+    box-shadow:  10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+}
+
+header {
+    padding: 30px;
+    margin-bottom: 80px;
+    background-color: #2e354f;
+}
+
+.nav-menu {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 0;
+    padding-bottom: 20px;;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ef5839;
+    display: inline-block;
+    padding: 15px;
+    transition: .3s;
+}
+
+.nav-menu li a:hover {
+    background-color: #ef5839;
+    color:#ffffff;    
+}
+
+.photo {
+    position: absolute;
+    width: 16%;
+    border-radius: 50%;
+    top: 130px;
+}
+
+.header-container {
+    position: relative;
+    padding-left: 30%;
+}
+
+h1,
+h2 { 
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+h1 {
+    padding: 40px 0;
+}
+
+.section-title {
+    text-transform: uppercase;
+    text-align: left; 
+    padding-left: 30px;
+    color: #ef5839;
+}
+
+.main-container {
+    display: flex;
+    padding: 0 35px 30px;
+}
+
+.sidebar {
+    width: 60%;
+    padding-right: 100px;
+}
+
+.sidebar li{
+    padding-bottom: 10px;
+}
+
+section {
+    margin-bottom: 80px;
+}
+
+.contact-list {
+    list-style-type: none;
+}
+
+.contact-list a {
+    text-decoration: none;
+}
+
+
+
+pre {
+    background-color: lightgrey;
+    font-size: large;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #2e354f;
+    height: 70px;
+    padding: 30px;
+    color:#ffffff;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;    
+}
+
+.github-link img {
+    width: 35px;
+    height: 35px;
+}
