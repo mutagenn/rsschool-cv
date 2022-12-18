@@ -32,10 +32,6 @@ header {
     padding-bottom: 20px;;
 }
 
-/* .nav-menu li{
-    
-} */
-
 .nav-menu li a {
     text-decoration: none;
     font-size: 16px;
@@ -71,6 +67,10 @@ h2 {
     font-weight: 600;
 }
 
+h1 {
+    padding: 40px 0;
+}
+
 .section-title {
     text-transform: uppercase;
     text-align: left; 
@@ -84,13 +84,27 @@ h2 {
 }
 
 .sidebar {
-    width: 40%;
+    width: 60%;
     padding-right: 100px;
 }
 
-.sidebar section {
+.sidebar li{
+    padding-bottom: 10px;
+}
+
+section {
     margin-bottom: 80px;
 }
+
+.contact-list {
+    list-style-type: none;
+}
+
+.contact-list a {
+    text-decoration: none;
+}
+
+
 
 pre {
     background-color: lightgrey;
@@ -100,19 +114,16 @@ pre {
 
 footer {
     background-color: #2e354f;
-    height: 150px;
+    height: 70px;
+    padding: 30px;
+    color:#ffffff;
 }
 
 .footer-links {
     display: flex;
     justify-content: space-between;
-    list-style-type: none;;
-    
-}
-
-.rss-link img {
-    width: 60px;
-    height: 35px;
+    align-items: center;
+    list-style-type: none;    
 }
 
 .github-link img {
